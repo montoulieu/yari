@@ -22,11 +22,11 @@ import { CATEGORY_MONTHLY_PAYMENTS, useGA } from "../ga-context";
 import { useLocale } from "../hooks";
 import { useUserData } from "../user-context";
 
-// TODO: split up banners into separate lazy-loaded component files
-import "../kumastyles/components/banners/base.scss";
-import "../kumastyles/components/banners/developer-needs.scss";
-import "../kumastyles/components/banners/l10n-survey.scss";
-import "../kumastyles/components/banners/mdn-subscriptions.scss";
+// // TODO: split up banners into separate lazy-loaded component files
+// import "../kumastyles/components/banners/base.scss";
+// import "../kumastyles/components/banners/developer-needs.scss";
+// import "../kumastyles/components/banners/l10n-survey.scss";
+// import "../kumastyles/components/banners/mdn-subscriptions.scss";
 
 // Set a localStorage key with a timestamp the specified number of
 // days into the future. When the user dismisses a banner we use this
